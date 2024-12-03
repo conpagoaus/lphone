@@ -1,10 +1,10 @@
 import { expect } from "expect";
 import { describe, it } from "node:test";
-// import { findPhoneNumbersInText } from "libphonenumber-js";
+import { findPhoneNumbersInText } from "libphonenumber-js";
 
 const tests = ["0479083575"];
 describe("findPhoneNumbersInText", async () => {
-  const { findPhoneNumbersInText } = await import("libphonenumber-js");
+  // const { findPhoneNumbersInText } = await import("libphonenumber-js");
   for (const item of tests) {
     it(`${item} to be parsed to a valid number`, async () => {
       const [parsed] = findPhoneNumbersInText(item, "AU");
