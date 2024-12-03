@@ -81,6 +81,6 @@ TypeError [Error]: Cannot read properties of undefined (reading 'hasOwnProperty'
 ## Environment
 
 - libphonenumber-js version: 1.11.15
-- Node.js version: 16.x
+- Node.js version: 22.x
 - TypeScript version: 5.x
 - Test Runner: node:test
