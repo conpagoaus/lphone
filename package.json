@@ -1,0 +1,25 @@
+{
+  "name": "lphone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --version && node --import tsx --test ./test/**/*.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@tsconfig/node22": "^22.0.0",
+    "expect": "^29.7.0",
+    "google-libphonenumber": "^3.2.39",
+    "libphonenumber-js": "^1.11.15",
+    "linkify-html": "^4.1.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}

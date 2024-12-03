@@ -1,0 +1,27 @@
+{
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist",
+    "**/*.test.ts",
+    "/**/*.playground.*"
+  ],
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "rootDir": "./",
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "strict": false,
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "declaration": false,
+    "allowJs": true,
+    "checkJs": false,
+    "baseUrl": ".",
+    
+  },
+  // "include": ["**/*.ts", "**/*.js"],
+  "files": ["node_modules/jest-extended/types/index.d.ts"]
+}
